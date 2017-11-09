@@ -2,9 +2,18 @@
     <xsl:template match="/root" name="wurui.recommended-spot">
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-recommended-spot" ox-mod="recommended-spot">
-            <h1>
-                This is mod recommended-spot;
-            </h1>
+            <xsl:for-each select="data/recommended-spot/i">
+	            <div class="item">
+	            	<img src="//a.oxm1.cc/img/blank.png" style="background-image:url({img})"/>
+	            	<h4 class="title">
+	            		<xsl:value-of select="title"/>
+	            		<xsl:if test="tag != '' "><span class="tag"><xsl:value-of select="tag"/></span></xsl:if>
+	            	</h4>
+	            	<p class="reason">
+	            		推荐理由：<xsl:value-of select="reason"/>
+	            	</p>
+	            </div>
+            </xsl:for-each>
         </div>
     </xsl:template>
 </xsl:stylesheet>

@@ -15,23 +15,20 @@
     </p>
     <data>
             <recommended-spot>
-        <i>
-            <title>
-                powerful camera
-            </title>
-            <reason>
-                laptop
-            </reason>
-            <tag>
-                laptop
-            </tag>
-            <img>
-                //a.oxm1.cc/img/fox.jpg
-            </img>
-            <href>
-                //a.oxm1.cc/img/fox.jpg
-            </href>
-        </i>
-    </recommended-spot>
+                <i>
+                    <title>味庄(杨公堤店)</title>
+                    <reason>#随手拍美食#知味观杨公堤店 猫儿儿儿</reason>
+                    <tag>劵</tag>
+                    <img>http://i.oxm1.cc/uploads/git/wurui/img/2a9k4s83aTj9s89dmiR8xw0A1pys-500.jpg</img>
+                    <href></href>
+                </i>
+                <i>
+                    <title>杭州酒家(延安路店)</title>
+                    <reason>离开杭州前的最后一餐杭帮菜～就这吃了</reason>
+                    <tag></tag>
+                    <img>http://i.oxm1.cc/uploads/git/wurui/img/2a9k4q75fTj9s8bekdRtop9A48ed-750.jpg</img>
+                    <href></href>
+                </i>
+            </recommended-spot>
     </data>
 </root>
