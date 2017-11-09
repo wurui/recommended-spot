@@ -1,0 +1,6 @@
+{
+  "name": "recommended-spot",
+  "version": "0.0.1",
+  "apiDependencies": ["recommended-spot"]
+}
+
